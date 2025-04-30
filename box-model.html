@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Model Example</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color:black;
+        }
+
+        .box {
+            height: 200px;
+            width: 300px;
+            padding: 20px;
+            border: 5px solid blue;
+            margin: 50px;
+            background-color:lightgray;
+        }
+
+        .mainBox {
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="mainBox">
+        <div class="box">
+            This is a box with height, width, padding, border, and margin.
+        </div>
+    
+        <div class="box">
+            This is a box with height, width, padding, border, and margin.
+        </div>
+    </div>
+
+    <button style="background-color:lightseagreen; color: white; 
+    padding: 10px 20px; border: none; border-radius: 5px;">
+        Click Me
+    </button>
+<p></p>
+</body>
+</html>
